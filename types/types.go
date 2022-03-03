@@ -92,6 +92,7 @@ type ServiceConfig struct {
 	BlkioConfig       *BlkioConfig                     `mapstructure:"blkio_config" yaml:",omitempty" json:"blkio_config,omitempty"`
 	CapAdd            []string                         `mapstructure:"cap_add" yaml:"cap_add,omitempty" json:"cap_add,omitempty"`
 	CapDrop           []string                         `mapstructure:"cap_drop" yaml:"cap_drop,omitempty" json:"cap_drop,omitempty"`
+	Cgroup            string                           `mapstructure:"cgroup" yaml:"cgroup,omitempty" json:"cgroup,omitempty"`
 	CgroupParent      string                           `mapstructure:"cgroup_parent" yaml:"cgroup_parent,omitempty" json:"cgroup_parent,omitempty"`
 	CPUCount          int64                            `mapstructure:"cpu_count" yaml:"cpu_count,omitempty" json:"cpu_count,omitempty"`
 	CPUPercent        float32                          `mapstructure:"cpu_percent" yaml:"cpu_percent,omitempty" json:"cpu_percent,omitempty"`
