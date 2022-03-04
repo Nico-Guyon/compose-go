@@ -1,4 +1,4 @@
-module github.com/Nico-Guyon/compose-go
+module github.com/compose-spec/compose-go
 
 go 1.17
 
